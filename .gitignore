@@ -1,0 +1,8 @@
+.DS_Store
+.agents/
+node_modules/
+dist/
+outputs/
+design/gallery-concept.jpg
+design/gallery-concept.png
+docs/plans/

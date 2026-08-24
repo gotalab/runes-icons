@@ -1,0 +1,1812 @@
+{
+  "schemaVersion": 1,
+  "candidateCount": 360,
+  "decisionCounts": {
+    "new": 334,
+    "alias": 21,
+    "merged": 5,
+    "rejected": 0
+  },
+  "candidates": {
+    "arrow-left": {
+      "decision": "new:arrow-left",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "arrow-up": {
+      "decision": "new:arrow-up",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "arrow-down": {
+      "decision": "new:arrow-down",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "chevron-left": {
+      "decision": "new:chevron-left",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "chevron-right": {
+      "decision": "new:chevron-right",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "chevron-up": {
+      "decision": "new:chevron-up",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "chevron-down": {
+      "decision": "new:chevron-down",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "minus": {
+      "decision": "new:minus",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "x": {
+      "decision": "new:x",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "save": {
+      "decision": "new:save",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "edit": {
+      "decision": "new:edit",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "copy": {
+      "decision": "new:copy",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "trash": {
+      "decision": "new:trash",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "download": {
+      "decision": "new:download",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "upload": {
+      "decision": "new:upload",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "refresh": {
+      "decision": "new:refresh",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "undo": {
+      "decision": "new:undo",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "redo": {
+      "decision": "new:redo",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "filter": {
+      "decision": "new:filter",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "external-link": {
+      "decision": "new:external-link",
+      "wave": "T2",
+      "family": "core-actions"
+    },
+    "users": {
+      "decision": "new:users",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "user-plus": {
+      "decision": "new:user-plus",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "user-minus": {
+      "decision": "new:user-minus",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "user-check": {
+      "decision": "new:user-check",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "contact": {
+      "decision": "new:contact",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "id-card": {
+      "decision": "new:id-card",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "mail": {
+      "decision": "new:mail",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "mail-open": {
+      "decision": "new:mail-open",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "inbox": {
+      "decision": "new:inbox",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "send": {
+      "decision": "new:send",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "reply": {
+      "decision": "new:reply",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "forward": {
+      "decision": "new:forward",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "at-sign": {
+      "decision": "new:at-sign",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "link": {
+      "decision": "new:link",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "unlink": {
+      "decision": "new:unlink",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "phone": {
+      "decision": "new:phone",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "video": {
+      "decision": "new:video",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "microphone": {
+      "decision": "new:microphone",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "chat-group": {
+      "decision": "new:chat-group",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "announcement": {
+      "decision": "new:announcement",
+      "wave": "T2",
+      "family": "people-communication"
+    },
+    "file-plus": {
+      "decision": "new:file-plus",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "file-minus": {
+      "decision": "new:file-minus",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "file-check": {
+      "decision": "new:file-check",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "file-code": {
+      "decision": "new:file-code",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "file-text": {
+      "decision": "new:file-text",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "file-image": {
+      "decision": "new:file-image",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "file-audio": {
+      "decision": "new:file-audio",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "file-video": {
+      "decision": "new:file-video",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "files": {
+      "decision": "new:files",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "folder-open": {
+      "decision": "new:folder-open",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "folder-plus": {
+      "decision": "new:folder-plus",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "archive": {
+      "decision": "new:archive",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "clipboard": {
+      "decision": "new:clipboard",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "clipboard-check": {
+      "decision": "new:clipboard-check",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "paperclip": {
+      "decision": "new:paperclip",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "import": {
+      "decision": "new:import",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "export": {
+      "decision": "new:export",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "scan": {
+      "decision": "new:scan",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "qr-code": {
+      "decision": "new:qr-code",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "book-open": {
+      "decision": "new:book-open",
+      "wave": "T2",
+      "family": "files-content"
+    },
+    "info": {
+      "decision": "new:info",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "help-circle": {
+      "decision": "new:help-circle",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "warning": {
+      "decision": "new:warning",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "error": {
+      "decision": "new:error",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "loader": {
+      "decision": "new:loader",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "more-horizontal": {
+      "decision": "new:more-horizontal",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "more-vertical": {
+      "decision": "new:more-vertical",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "eye": {
+      "decision": "new:eye",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "eye-off": {
+      "decision": "new:eye-off",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "clock": {
+      "decision": "new:clock",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "timer": {
+      "decision": "new:timer",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "stopwatch": {
+      "decision": "new:stopwatch",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "history": {
+      "decision": "new:history",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "bookmark": {
+      "decision": "new:bookmark",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "star": {
+      "decision": "new:star",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "pin": {
+      "decision": "new:pin",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "flag": {
+      "decision": "new:flag",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "tag": {
+      "decision": "new:tag",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "sort": {
+      "decision": "new:sort",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "success-circle": {
+      "decision": "alias:done",
+      "wave": "T2",
+      "family": "status-time-view"
+    },
+    "print": {
+      "decision": "new:print",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "presentation": {
+      "decision": "new:presentation",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "projector": {
+      "decision": "new:projector",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "slides": {
+      "decision": "new:slides",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "image": {
+      "decision": "new:image",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "camera": {
+      "decision": "new:camera",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "crop": {
+      "decision": "new:crop",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "palette": {
+      "decision": "new:palette",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "pen-tool": {
+      "decision": "new:pen-tool",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "type": {
+      "decision": "new:type",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "bold": {
+      "decision": "new:bold",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "italic": {
+      "decision": "new:italic",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "underline": {
+      "decision": "new:underline",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "list": {
+      "decision": "new:list",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "table": {
+      "decision": "new:table",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "columns": {
+      "decision": "new:columns",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "rows": {
+      "decision": "new:rows",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "align-left": {
+      "decision": "new:align-left",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "fullscreen": {
+      "decision": "new:fullscreen",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "screen-share": {
+      "decision": "new:screen-share",
+      "wave": "T2",
+      "family": "editing-presentation"
+    },
+    "embedding": {
+      "decision": "new:embedding",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "vector-store": {
+      "decision": "new:vector-store",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "token": {
+      "decision": "new:token",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "token-stream": {
+      "decision": "new:token-stream",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "context-window": {
+      "decision": "new:context-window",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "context-compaction": {
+      "decision": "new:context-compaction",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "retrieval": {
+      "decision": "new:retrieval",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "reranking": {
+      "decision": "new:reranking",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "grounding": {
+      "decision": "new:grounding",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "multimodal": {
+      "decision": "new:multimodal",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "vision": {
+      "decision": "new:vision",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "speech": {
+      "decision": "new:speech",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "image-generation": {
+      "decision": "new:image-generation",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "structured-output": {
+      "decision": "new:structured-output",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "response-stream": {
+      "decision": "merged:token-stream",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "model-router": {
+      "decision": "new:model-router",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "model-fallback": {
+      "decision": "new:model-fallback",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "model-ensemble": {
+      "decision": "new:model-ensemble",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "fine-tuning": {
+      "decision": "new:fine-tuning",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "inference": {
+      "decision": "new:inference",
+      "wave": "T3",
+      "family": "ai-foundation"
+    },
+    "planner-agent": {
+      "decision": "new:planner-agent",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "worker-agent": {
+      "decision": "new:worker-agent",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "reviewer-agent": {
+      "decision": "new:reviewer-agent",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "researcher-agent": {
+      "decision": "new:researcher-agent",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "coding-agent": {
+      "decision": "new:coding-agent",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "browser-agent": {
+      "decision": "new:browser-agent",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "computer-use-agent": {
+      "decision": "merged:computer-use",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "realtime-agent": {
+      "decision": "new:realtime-agent",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "agent-team": {
+      "decision": "new:agent-team",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "subagent": {
+      "decision": "new:subagent",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "delegation": {
+      "decision": "new:delegation",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "routing": {
+      "decision": "new:routing",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "agent-session": {
+      "decision": "new:agent-session",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "agent-state": {
+      "decision": "new:agent-state",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "plan": {
+      "decision": "new:plan",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "task": {
+      "decision": "new:task",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "task-queue": {
+      "decision": "new:task-queue",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "approval-request": {
+      "decision": "alias:human-gate",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "trace": {
+      "decision": "new:trace",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "benchmark": {
+      "decision": "new:benchmark",
+      "wave": "T3",
+      "family": "agent-roles"
+    },
+    "training-data": {
+      "decision": "alias:dataset",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "dataset": {
+      "decision": "new:dataset",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "data-labeling": {
+      "decision": "new:data-labeling",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "feature": {
+      "decision": "new:feature",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "feature-store": {
+      "decision": "new:feature-store",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "neural-network": {
+      "decision": "new:neural-network",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "transformer": {
+      "decision": "new:transformer",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "attention": {
+      "decision": "new:attention",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "latent-space": {
+      "decision": "alias:embedding",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "diffusion": {
+      "decision": "new:diffusion",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "model-weight": {
+      "decision": "alias:model-checkpoint",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "model-checkpoint": {
+      "decision": "new:model-checkpoint",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "quantization": {
+      "decision": "new:quantization",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "distillation": {
+      "decision": "new:distillation",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "synthetic-data": {
+      "decision": "new:synthetic-data",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "prompt-cache": {
+      "decision": "new:prompt-cache",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "semantic-cache": {
+      "decision": "new:semantic-cache",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "model-registry": {
+      "decision": "new:model-registry",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "model-serving": {
+      "decision": "new:model-serving",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "gpu": {
+      "decision": "new:gpu",
+      "wave": "T3",
+      "family": "ml-generation"
+    },
+    "system-prompt": {
+      "decision": "alias:instruction",
+      "wave": "T3",
+      "family": "agent-context-runtime"
+    },
+    "dynamic-instructions": {
+      "decision": "alias:prompt-template",
+      "wave": "T3",
+      "family": "agent-context-runtime"
+    },
+    "context-injection": {
+      "decision": "new:context-injection",
+      "wave": "T3",
+      "family": "agent-context-runtime"
+    },
+    "context-isolation": {
+      "decision": "new:context-isolation",
+      "wave": "T3",
+      "family": "agent-context-runtime"
+    },
+    "long-term-memory": {
+      "decision": "alias:memory",
+      "wave": "T3",
+      "family": "agent-context-runtime"
+    },
+    "episodic-memory": {
+      "decision": "alias:memory",
+      "wave": "T3",
+      "family": "agent-context-runtime"
+    },
+    "semantic-memory": {
+      "decision": "alias:memory",
+      "wave": "T3",
+      "family": "agent-context-runtime"
+    },
+    "working-memory": {
+      "decision": "alias:memory",
+      "wave": "T3",
+      "family": "agent-context-runtime"
+    },
+    "conversation-state": {
+      "decision": "new:conversation-state",
+      "wave": "T3",
+      "family": "agent-context-runtime"
+    },
+    "run-context": {
+      "decision": "new:run-context",
+      "wave": "T3",
+      "family": "agent-context-runtime"
+    },
+    "tool-context": {
+      "decision": "merged:run-context",
+      "wave": "T3",
+      "family": "agent-context-runtime"
+    },
+    "context-filter": {
+      "decision": "new:context-filter",
+      "wave": "T3",
+      "family": "agent-context-runtime"
+    },
+    "context-overflow": {
+      "decision": "new:context-overflow",
+      "wave": "T3",
+      "family": "agent-context-runtime"
+    },
+    "hallucination": {
+      "decision": "new:hallucination",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "uncertainty": {
+      "decision": "new:uncertainty",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "citation": {
+      "decision": "new:citation",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "provenance": {
+      "decision": "new:provenance",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "agent-budget": {
+      "decision": "new:agent-budget",
+      "wave": "T3",
+      "family": "agent-context-runtime"
+    },
+    "agent-timeout": {
+      "decision": "alias:timer",
+      "wave": "T3",
+      "family": "agent-context-runtime"
+    },
+    "kill-switch": {
+      "decision": "new:kill-switch",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "eval-case": {
+      "decision": "new:eval-case",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "eval-suite": {
+      "decision": "new:eval-suite",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "golden-dataset": {
+      "decision": "alias:dataset",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "rubric": {
+      "decision": "new:rubric",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "judge-model": {
+      "decision": "new:judge-model",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "human-evaluation": {
+      "decision": "new:human-evaluation",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "adversarial-test": {
+      "decision": "merged:red-team",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "red-team": {
+      "decision": "new:red-team",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "regression": {
+      "decision": "new:regression",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "trace-grading": {
+      "decision": "new:trace-grading",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "scorecard": {
+      "decision": "new:scorecard",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "pass-fail": {
+      "decision": "new:pass-fail",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "precision": {
+      "decision": "new:precision",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "recall": {
+      "decision": "new:recall",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "false-positive": {
+      "decision": "new:false-positive",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "false-negative": {
+      "decision": "new:false-negative",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "drift": {
+      "decision": "new:drift",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "bias": {
+      "decision": "new:bias",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "privacy": {
+      "decision": "alias:shield",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "pii-redaction": {
+      "decision": "new:pii-redaction",
+      "wave": "T3",
+      "family": "ai-evals-safety"
+    },
+    "chart-line": {
+      "decision": "new:chart-line",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "chart-bar": {
+      "decision": "new:chart-bar",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "dashboard": {
+      "decision": "new:dashboard",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "gauge": {
+      "decision": "new:gauge",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "trending-up": {
+      "decision": "new:trending-up",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "funnel": {
+      "decision": "new:funnel",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "query": {
+      "decision": "new:query",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "data-pipeline": {
+      "decision": "new:data-pipeline",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "data-lineage": {
+      "decision": "new:data-lineage",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "data-quality": {
+      "decision": "new:data-quality",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "code": {
+      "decision": "new:code",
+      "wave": "T5",
+      "family": "development"
+    },
+    "terminal": {
+      "decision": "new:terminal",
+      "wave": "T5",
+      "family": "development"
+    },
+    "command": {
+      "decision": "new:command",
+      "wave": "T5",
+      "family": "development"
+    },
+    "braces": {
+      "decision": "merged:code",
+      "wave": "T5",
+      "family": "development"
+    },
+    "bug": {
+      "decision": "new:bug",
+      "wave": "T5",
+      "family": "development"
+    },
+    "test-tube": {
+      "decision": "alias:test-unit",
+      "wave": "T5",
+      "family": "development"
+    },
+    "package": {
+      "decision": "new:package",
+      "wave": "T5",
+      "family": "development"
+    },
+    "server": {
+      "decision": "new:server",
+      "wave": "T5",
+      "family": "development"
+    },
+    "cloud": {
+      "decision": "new:cloud",
+      "wave": "T5",
+      "family": "development"
+    },
+    "container": {
+      "decision": "new:container",
+      "wave": "T5",
+      "family": "development"
+    },
+    "source-system": {
+      "decision": "new:source-system",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "ingestion": {
+      "decision": "new:ingestion",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "batch": {
+      "decision": "new:batch",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "stream": {
+      "decision": "new:stream",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "change-data-capture": {
+      "decision": "new:change-data-capture",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "event-bus": {
+      "decision": "new:event-bus",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "message-queue": {
+      "decision": "new:message-queue",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "data-lake": {
+      "decision": "new:data-lake",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "data-warehouse": {
+      "decision": "new:data-warehouse",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "lakehouse": {
+      "decision": "new:lakehouse",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "data-mart": {
+      "decision": "new:data-mart",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "etl": {
+      "decision": "new:etl",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "elt": {
+      "decision": "new:elt",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "transformation": {
+      "decision": "new:transformation",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "pipeline-orchestration": {
+      "decision": "new:pipeline-orchestration",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "schema": {
+      "decision": "new:schema",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "schema-evolution": {
+      "decision": "new:schema-evolution",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "partition": {
+      "decision": "new:partition",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "incremental-load": {
+      "decision": "new:incremental-load",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "backfill": {
+      "decision": "new:backfill",
+      "wave": "T4",
+      "family": "data-engineering"
+    },
+    "metric": {
+      "decision": "new:metric",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "dimension": {
+      "decision": "new:dimension",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "measure": {
+      "decision": "new:measure",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "semantic-layer": {
+      "decision": "new:semantic-layer",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "cube": {
+      "decision": "new:cube",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "cohort": {
+      "decision": "new:cohort",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "segment": {
+      "decision": "new:segment",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "retention": {
+      "decision": "new:retention",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "conversion": {
+      "decision": "new:conversion",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "attribution": {
+      "decision": "new:attribution",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "correlation": {
+      "decision": "new:correlation",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "distribution": {
+      "decision": "new:distribution",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "anomaly": {
+      "decision": "new:anomaly",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "forecast": {
+      "decision": "new:forecast",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "variance": {
+      "decision": "new:variance",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "confidence-interval": {
+      "decision": "new:confidence-interval",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "statistical-significance": {
+      "decision": "new:statistical-significance",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "sample-size": {
+      "decision": "new:sample-size",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "notebook": {
+      "decision": "new:notebook",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "pivot-table": {
+      "decision": "new:pivot-table",
+      "wave": "T4",
+      "family": "data-analytics"
+    },
+    "event-tracking": {
+      "decision": "new:event-tracking",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "page-view": {
+      "decision": "new:page-view",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "screen-view": {
+      "decision": "new:screen-view",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "click-event": {
+      "decision": "new:click-event",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "user-journey": {
+      "decision": "new:user-journey",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "funnel-analysis": {
+      "decision": "alias:funnel",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "session-replay": {
+      "decision": "new:session-replay",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "heatmap": {
+      "decision": "new:heatmap",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "feature-adoption": {
+      "decision": "new:feature-adoption",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "activation": {
+      "decision": "new:activation",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "engagement": {
+      "decision": "new:engagement",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "stickiness": {
+      "decision": "new:stickiness",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "churn": {
+      "decision": "new:churn",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "north-star-metric": {
+      "decision": "new:north-star-metric",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "experiment": {
+      "decision": "new:experiment",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "variant": {
+      "decision": "new:variant",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "control-group": {
+      "decision": "new:control-group",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "feature-exposure": {
+      "decision": "new:feature-exposure",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "release-impact": {
+      "decision": "new:release-impact",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "feedback": {
+      "decision": "new:feedback",
+      "wave": "T4",
+      "family": "product-analytics"
+    },
+    "mcp-client": {
+      "decision": "new:mcp-client",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "mcp-host": {
+      "decision": "new:mcp-host",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "mcp-tool": {
+      "decision": "alias:tool",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "mcp-prompt": {
+      "decision": "alias:prompt-template",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "mcp-app": {
+      "decision": "new:mcp-app",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "mcp-extension": {
+      "decision": "new:mcp-extension",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "mcp-task": {
+      "decision": "new:mcp-task",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "mcp-discovery": {
+      "decision": "new:mcp-discovery",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "resource-template": {
+      "decision": "new:resource-template",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "connector": {
+      "decision": "new:connector",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "hook": {
+      "decision": "new:hook",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "slash-command": {
+      "decision": "new:slash-command",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "plugin-marketplace": {
+      "decision": "new:plugin-marketplace",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "plugin-update": {
+      "decision": "new:plugin-update",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "function-tool": {
+      "decision": "alias:tool",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "deferred-tool": {
+      "decision": "new:deferred-tool",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "tool-search": {
+      "decision": "new:tool-search",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "tool-choice": {
+      "decision": "new:tool-choice",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "shell": {
+      "decision": "alias:terminal",
+      "wave": "T5",
+      "family": "protocol-extensions"
+    },
+    "computer-use": {
+      "decision": "new:computer-use",
+      "wave": "T5",
+      "family": "prompt-tools"
+    },
+    "git-commit": {
+      "decision": "new:git-commit",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "git-merge": {
+      "decision": "new:git-merge",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "git-pull-request": {
+      "decision": "new:git-pull-request",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "git-fork": {
+      "decision": "new:git-fork",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "branch-protection": {
+      "decision": "new:branch-protection",
+      "wave": "T5",
+      "family": "security-release"
+    },
+    "release": {
+      "decision": "new:release",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "rollback": {
+      "decision": "new:rollback",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "feature-flag": {
+      "decision": "new:feature-flag",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "key": {
+      "decision": "new:key",
+      "wave": "T5",
+      "family": "security-release"
+    },
+    "lock": {
+      "decision": "new:lock",
+      "wave": "T5",
+      "family": "security-release"
+    },
+    "unlock": {
+      "decision": "new:unlock",
+      "wave": "T5",
+      "family": "security-release"
+    },
+    "fingerprint": {
+      "decision": "new:fingerprint",
+      "wave": "T5",
+      "family": "security-release"
+    },
+    "identity": {
+      "decision": "new:identity",
+      "wave": "T5",
+      "family": "security-release"
+    },
+    "permission": {
+      "decision": "new:permission",
+      "wave": "T5",
+      "family": "security-release"
+    },
+    "secret": {
+      "decision": "new:secret",
+      "wave": "T5",
+      "family": "security-release"
+    },
+    "audit-log": {
+      "decision": "new:audit-log",
+      "wave": "T5",
+      "family": "security-release"
+    },
+    "policy": {
+      "decision": "new:policy",
+      "wave": "T5",
+      "family": "security-release"
+    },
+    "input-guardrail": {
+      "decision": "new:input-guardrail",
+      "wave": "T5",
+      "family": "security-release"
+    },
+    "output-guardrail": {
+      "decision": "new:output-guardrail",
+      "wave": "T5",
+      "family": "security-release"
+    },
+    "tool-guardrail": {
+      "decision": "new:tool-guardrail",
+      "wave": "T5",
+      "family": "security-release"
+    },
+    "architecture": {
+      "decision": "new:architecture",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "component": {
+      "decision": "new:component",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "module": {
+      "decision": "new:module",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "layer": {
+      "decision": "new:layer",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "boundary": {
+      "decision": "new:boundary",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "interface": {
+      "decision": "new:interface",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "dependency": {
+      "decision": "new:dependency",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "coupling": {
+      "decision": "new:coupling",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "cohesion": {
+      "decision": "new:cohesion",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "abstraction": {
+      "decision": "new:abstraction",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "adapter": {
+      "decision": "new:adapter",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "gateway": {
+      "decision": "new:gateway",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "repository": {
+      "decision": "new:repository",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "service": {
+      "decision": "new:service",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "domain-model": {
+      "decision": "new:domain-model",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "entity": {
+      "decision": "new:entity",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "value-object": {
+      "decision": "new:value-object",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "event-driven": {
+      "decision": "new:event-driven",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "state-machine": {
+      "decision": "new:state-machine",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "decision-record": {
+      "decision": "new:decision-record",
+      "wave": "T5",
+      "family": "software-architecture"
+    },
+    "requirement": {
+      "decision": "new:requirement",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "prd": {
+      "decision": "new:prd",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "specification": {
+      "decision": "new:specification",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "design-review": {
+      "decision": "new:design-review",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "code-review": {
+      "decision": "new:code-review",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "test-unit": {
+      "decision": "new:test-unit",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "test-integration": {
+      "decision": "new:test-integration",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "test-e2e": {
+      "decision": "new:test-e2e",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "test-snapshot": {
+      "decision": "new:test-snapshot",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "test-coverage": {
+      "decision": "new:test-coverage",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "lint": {
+      "decision": "new:lint",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "type-check": {
+      "decision": "new:type-check",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "build-pipeline": {
+      "decision": "new:build-pipeline",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "continuous-integration": {
+      "decision": "new:continuous-integration",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "continuous-delivery": {
+      "decision": "new:continuous-delivery",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "release-candidate": {
+      "decision": "alias:release",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "migration": {
+      "decision": "new:migration",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "deprecation": {
+      "decision": "new:deprecation",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "technical-debt": {
+      "decision": "new:technical-debt",
+      "wave": "T5",
+      "family": "software-quality"
+    },
+    "refactor": {
+      "decision": "new:refactor",
+      "wave": "T5",
+      "family": "software-quality"
+    }
+  }
+}

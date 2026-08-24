@@ -1,0 +1,41 @@
+{
+  "name": "@gotalab/runes",
+  "private": true,
+  "version": "0.2.2",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "runes": "./bin/runes.mjs"
+  },
+  "packageManager": "pnpm@10.20.0",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=10"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "validate": "node scripts/validate-icons.mjs",
+    "validate:render": "node scripts/validate-rendered-geometry.mjs",
+    "test:cli": "node scripts/test-cli.mjs",
+    "test:iconify": "node scripts/test-iconify-export.mjs",
+    "test:plugin-propagation": "node scripts/test-plugin-propagation.mjs",
+    "generate:readme-preview": "node scripts/generate-readme-preview.mjs",
+    "build:agent-plugin": "node scripts/build-agent-plugin.mjs",
+    "validate:agent-plugin": "node scripts/validate-agent-plugin-bundle.mjs",
+    "update:render-baseline": "node scripts/update-render-baseline.mjs",
+    "build": "node scripts/validate-icons.mjs && node scripts/build.mjs && node scripts/export-svg.mjs",
+    "check": "node scripts/check-source-syntax.mjs && node scripts/validate-inventory.mjs && node scripts/test-inventory-validator.mjs && node scripts/test-icon-validator.mjs && node scripts/test-icon-search.mjs && node scripts/test-gallery-export.mjs && pnpm run test:cli && pnpm run test:iconify && pnpm run test:plugin-propagation && pnpm run validate:render && node scripts/test-rendered-geometry-validator.mjs && node scripts/generate-readme-preview.mjs --check && pnpm run build && node scripts/validate-icons.mjs --dist",
+    "check:complete": "node scripts/validate-inventory.mjs --complete && pnpm run check",
+    "check:post360": "node scripts/validate-post360.mjs --complete && pnpm run check:complete",
+    "preview": "node scripts/serve.mjs dist",
+    "export:svg": "node scripts/export-svg.mjs"
+  },
+  "devDependencies": {
+    "@iconify/utils": "3.1.4",
+    "@resvg/resvg-js": "2.6.2",
+    "esbuild": "0.25.9"
+  },
+  "dependencies": {
+    "@resvg/resvg-wasm": "2.6.2"
+  }
+}

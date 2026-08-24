@@ -1,0 +1,34 @@
+import { c, l, layer, p, poly, rect } from "./primitives.js";
+import { checkMark } from "./modifier-primitives.js";
+
+const icon = (name, slug, loreName, cue, nodes) => ({ name, slug, groupId: "software-quality", loreName, cue, nodes });
+const document = (...content) => [p("M5 3h10l4 4v14H5Z"), p("M15 3v4h4"), ...content];
+
+export const icons = [
+  icon("Requirement", "requirement", "Required Clause", "document with one conventional mandatory-field mark and a supporting clause", document(p("M9 10v4M7.25 11l3.5 2M10.75 11l-3.5 2"), l(13, 12, 16.5, 12), l(8, 17, 16, 17))),
+  icon("Product Requirements Document", "prd", "Product Charter", "requirements document containing one compact product surface", document(layer("secondary", rect(8, 10, 8, 6, 1)), l(10, 13, 14, 13), l(8, 18.5, 14, 18.5))),
+  icon("Specification", "specification", "Measured Contract", "technical document carrying one explicit dimension scale", document(l(8, 12, 16, 12), l(8, 10.5, 8, 13.5), l(12, 11, 12, 13), l(16, 10.5, 16, 13.5), l(8, 17, 14, 17))),
+  icon("Design Review", "design-review", "Inspected Form", "layout surface inspected by one conventional review lens", [rect(3, 4, 13, 15, 2), rect(6, 7, 7, 4, 1), l(6, 14, 12, 14), layer("secondary", c(17, 16, 3)), layer("secondary", l(19.25, 18.25, 21, 20))]),
+  icon("Code Review", "code-review", "Inspected Source", "programming delimiters paired with one accepted-review mark", [poly("8 7 4 12 8 17"), poly("12 7 15 10 12 13"), layer("secondary", poly("12 17 14.5 19.5 20 13"))]),
+  icon("Unit Test", "test-unit", "Single Trial", "one isolated unit held inside a conventional test vessel", [p("M6 3h12M8 3v11a4 4 0 0 0 8 0V3"), layer("secondary", rect(10.5, 10.5, 3, 3, 0.5))]),
+  icon("Integration Test", "test-integration", "Joined Trial", "two bounded components connected and accepted together", [rect(3, 5, 7, 7, 1), rect(14, 5, 7, 7, 1), l(10, 8.5, 14, 8.5), layer("secondary", poly("7 17 9.5 19.5 16 15.5"))]),
+  icon("End-to-End Test", "test-e2e", "Whole Path Trial", "start and finish connected through one bounded system stage", [c(4, 12, 1.5), l(5.5, 12, 8, 12), rect(8, 7.5, 8, 9, 1), poly("11.25 10.5 13.25 12 11.25 13.5"), l(16, 12, 18.5, 12), c(20, 12, 1.5)]),
+  icon("Snapshot Test", "test-snapshot", "Matched State", "two bounded rendered states joined by one equality comparison", [rect(3, 5, 6, 14, 1), rect(15, 5, 6, 14, 1), l(10.75, 10, 13.25, 10), l(10.75, 14, 13.25, 14), l(4.5, 9, 7.5, 9), l(16.5, 9, 19.5, 9)]),
+  icon("Test Coverage", "test-coverage", "Covered Trial", "three-quarter coverage ring carrying one accepted result", [p("M12 4a8 8 0 1 1-8 8"), layer("secondary", poly("8 12 11 15 16 9"))]),
+  icon("Lint", "lint", "Source Reading", "code lines with one conventional diagnostic underline", [l(4, 6, 19, 6), l(4, 11, 14, 11), p("M4 17c1.5-2 3 2 4 0s2.5-2 4 0 3-2 5 0")]),
+  icon("Type Check", "type-check", "Typed Seal", "type-shaped construction paired with one accepted check", [l(4, 6, 12, 6), l(8, 6, 8, 18), ...checkMark(16, 15, 8, { elbowOffset: -1.5, drop: 2.5, rise: 4 }).map((node) => layer("secondary", node))]),
+  icon("Build Pipeline", "build-pipeline", "Assembly Line", "three bounded build stages joined in one continuous sequence", [rect(3, 7, 5, 10, 1), l(8, 12, 10, 12), rect(10, 7, 5, 10, 1), l(15, 12, 17, 12), rect(17, 7, 4, 10, 1)]),
+  icon("Continuous Integration", "continuous-integration", "Joined Build", "two source paths continuously converging through one accepted integration gate", [c(4, 7, 1.25), c(4, 17, 1.25), p("M5.25 7h2.5C9.75 7 11 8.5 11 10.5M5.25 17h2.5C9.75 17 11 15.5 11 13.5"), c(11, 12, 1.5), l(12.5, 12, 15, 12), layer("secondary", rect(15, 8, 6, 8, 1.5)), layer("secondary", poly("16.75 12 18 13.25 19.5 11.25"))]),
+  icon("Continuous Delivery", "continuous-delivery", "Ongoing Passage", "two delivery stages connected by opposing promotion and return paths", [rect(2.5, 7, 4.5, 10, 1.5), rect(17, 7, 4.5, 10, 1.5), p("M9.75 9h4.5M12.75 7.5l1.5 1.5-1.5 1.5M14.25 15h-4.5M11.25 13.5 9.75 15l1.5 1.5"), l(3.5, 12, 5.5, 12), layer("secondary", poly("18.5 10 20.5 12 18.5 14"))]),
+  icon("Migration", "migration", "Moved System", "one bounded system moving in a single direction into its replacement", [rect(3, 6, 6, 12, 1.5), l(5, 10, 7, 10), p("M10.5 12h3M11.5 10l2 2-2 2"), rect(15, 6, 6, 12, 1.5), l(17, 10, 19, 10)]),
+  icon("Deprecation", "deprecation", "Retired State", "an explicitly crossed old lifecycle state leading toward its supported successor", [rect(3, 9, 6, 6, 1), p("M4.5 10.5l3 3M7.5 10.5l-3 3"), l(9, 12, 16, 12), c(18, 12, 2)]),
+  icon("Technical Debt", "technical-debt", "Cracked Foundation", "stacked implementation layers divided once around one visible structural crack", [rect(4, 3, 16, 18, 2), p("M4 8.5h7.5M14 8.5h6M4 14h6.5M13 14h7"), layer("secondary", poly("11.5 8.5 13 10.5 11.5 12.5 13 14"))]),
+  icon("Refactor", "refactor", "Rewritten Form", "source delimiters transformed by opposing directional paths", [poly("8 7 4 12 8 17"), poly("16 7 20 12 16 17"), layer("secondary", p("M9 5h5M12 3l2 2-2 2M15 19h-5M12 17l-2 2 2 2"))]),
+  icon("Git Commit", "git-commit", "Sealed Change", "one commit seal fixed on a single version rail", [l(3, 12, 10, 12), c(12, 12, 2), l(14, 12, 21, 12)]),
+  icon("Git Merge", "git-merge", "Joined Histories", "two input histories converging into one output history", [c(4, 7, 1.25), c(4, 17, 1.25), c(20, 12, 1.25), p("M5.25 7h3C10.75 7 12 8.5 12 12h6.75M5.25 17h3C10.75 17 12 15.5 12 12")]),
+  icon("Git Pull Request", "git-pull-request", "Reviewed Branch", "one branch entering a review gate while a peer branch remains continuous", [c(4, 7.75, 1.25), c(4, 17.75, 1.25), l(5.25, 7.75, 15, 7.75), layer("secondary", rect(15, 4.75, 6, 7, 1.5)), layer("secondary", p("M16.5 8.25l1.25 1.25L20 7.25")), l(5.25, 17.75, 18.75, 17.75), c(20, 17.75, 1.25)]),
+  icon("Git Fork", "git-fork", "Divided History", "one input history dividing at one junction into two independent outputs", [c(4, 12, 1.25), c(20, 7, 1.25), c(20, 17, 1.25), p("M5.25 12H12C12 8.5 13.25 7 15.75 7h3M12 12c0 3.5 1.25 5 3.75 5h3")]),
+  icon("Release", "release", "Published Version", "sealed version artifact moving toward one open publication port", [layer("secondary", rect(3, 7, 8, 10, 2)), c(7, 12, 1.5), p("M12.5 12h4M14.5 10l2 2-2 2"), layer("tertiary", p("M18 6h3v12h-3"))]),
+  icon("Rollback", "rollback", "Previous Version", "version history returning visibly toward an older sealed state", [c(7, 16, 1.25), c(17, 16, 1.25), l(8.25, 16, 15.75, 16), layer("secondary", p("M18 9C14 4 7 10 5 10M6.75 8.75 5 10l1.75 1.25"))]),
+  icon("Feature Flag", "feature-flag", "Guarded Route", "one switch controlling the continuous route into a visible branch flag", [l(3, 18, 5.5, 18), c(7, 18, 1.5), p("M8.5 18H13V5"), layer("secondary", p("M13 5h7l-2 2 2 2h-7"))]),
+];

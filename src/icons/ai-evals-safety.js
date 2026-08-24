@@ -1,0 +1,27 @@
+import { c, diamond, l, layer, p, poly, rect } from "./primitives.js";
+
+const icon = (name, slug, loreName, cue, nodes) => ({ name, slug, groupId: "ai-evals-safety", loreName, cue, nodes });
+export const icons = [
+  icon("Unsupported Claim", "hallucination", "Unmoored Answer", "claim bubble visibly floating above an unconnected source book", [layer("secondary", p("M4 3h16v7H13l-2 2v-2H4Z")), l(7, 6.5, 17, 6.5), layer("secondary", p("M3 15h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6M3 15v4h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6v-4M12 18v2.5"))]),
+  icon("Uncertainty", "uncertainty", "Open Interval", "one estimate held inside a visibly bounded confidence range", [layer("secondary", p("M4.5 8v8M19.5 8v8")), layer("secondary", p("M5.75 12H9.5M14.5 12h3.75")), diamond(12, 12, 1.25)]),
+  icon("Citation", "citation", "Source Marker", "one source record attached to one raised claim marker", [layer("secondary", rect(3, 4, 9, 16, 2)), p("M5.5 9h4M5.5 15h4"), layer("tertiary", p("M13.25 12h1.5V7h.5")), c(18, 7, 1.5), l(15, 15, 21, 15)]),
+  icon("Provenance", "provenance", "Origin Chain", "source transformed through one stage into an artifact", [c(4.5, 12, 1.5), l(7.25, 12, 8.75, 12), diamond(12, 12, 2), l(15.25, 12, 15.75, 12), layer("secondary", rect(17, 7, 4.5, 10, 1))]),
+  icon("Kill Switch", "kill-switch", "Severing Lever", "guarded actuator visibly opening a live execution path", [layer("secondary", rect(3, 4, 18, 16, 3)), p("M6 13h4l5-5M16 13h2.25")]),
+  icon("Eval Case", "eval-case", "Single Trial", "one bounded trial lane from input to expected result", [layer("secondary", rect(4, 4, 16, 16, 2)), c(8, 12, 1.25), l(10.5, 12, 13, 12), diamond(15.75, 12, 1.5)]),
+  icon("Eval Suite", "eval-suite", "Trial Stack", "stacked evaluation cases sharing one visible trial lane", [layer("secondary", p("M7 2.5h13v14")), layer("secondary", rect(4, 6, 13, 14, 1.5)), c(7.5, 13, 0.75), l(9.5, 13, 11.5, 13), diamond(13.5, 13, 0.75)]),
+  icon("Rubric", "rubric", "Fixed Measure", "open criteria rails with fixed threshold ticks", [layer("secondary", p("M7 4H4v16h3")), p("M8 7h12M8 12h12M8 17h12"), layer("tertiary", p("M12 4.5v1.25M16 9.5v1.25M10 14.5v1.25"))]),
+  icon("Judge Model", "judge-model", "Oracle Arbiter", "model core driving a symmetric pass-or-fail judgment", [diamond(12, 5.5, 2), l(12, 8.75, 12, 9.75), layer("secondary", l(6, 11, 18, 11)), poly("5 16 7 18 10 14"), p("M15 14l4 4M19 14l-4 4")]),
+  icon("Human Evaluation", "human-evaluation", "Mortal Measure", "human evaluator paired with one explicit rating scale", [c(6.5, 7, 2), p("M3 16c0-3 1.5-5 3.5-5s3.5 2 3.5 5"), layer("secondary", p("M17 4v5.875M17 14.125V20")), diamond(17, 12, 1.5)]),
+  icon("Red Team", "red-team", "Hostile Probe", "adversarial probe entering a deliberate breach in a ward", [p("M3 10.5h4V8l3.5 4L7 16v-2.5H3Z"), layer("secondary", p("M16 3.5 21 6v6c0 4-2 7-5 8-3-1-5-3.5-5-5M11 9V6l5-2.5"))]),
+  icon("Regression", "regression", "Fallen Standard", "measured result stepping down toward a directional failure terminal", [c(4, 7, 1.25), p("M6.5 7H10v3a4 4 0 0 0 4 4h2.75"), poly("15.5 11.5 18 14 15.5 16.5")]),
+  icon("Trace Grading", "trace-grading", "Judged Chronicle", "execution timeline paired with one verdict", [layer("secondary", p("M5 2.5v1.25M5 8.25v1.5M5 14.25v1.5M5 20.25v.625")), c(5, 6, 1), c(5, 12, 1), c(5, 18, 1), p("M7.25 6h5M7.25 12h5M7.25 18h5"), poly("15 12 17.5 14.5 21 9")]),
+  icon("Scorecard", "scorecard", "Measured Record", "closed result card with measured rails ending in explicit scores", [layer("secondary", rect(4, 3, 16, 18, 2)), p("M7 8h6M7 12h7.5M7 16h4"), c(15, 8, 0.75), c(16.5, 12, 0.75), c(13, 16, 0.75)]),
+  icon("Pass Fail", "pass-fail", "Twin Verdict", "pass and fail states shown together in one divided token", [layer("secondary", c(12, 12, 9)), layer("secondary", l(12, 6, 12, 18)), poly("5.75 12 7.25 13.5 9.25 10"), p("M14.75 9.75l3 4.5M17.75 9.75l-3 4.5")]),
+  icon("Precision", "precision", "Selection Purity", "one true result isolated inside a narrow selection while distractors remain outside", [layer("secondary", c(4.5, 8, 0.75)), layer("secondary", c(4.5, 16, 0.75)), layer("tertiary", p("M11 6H9v12h2M17 6h2v12h-2")), diamond(14, 12, 1.25)]),
+  icon("Recall", "recall", "Truth Coverage", "broad truth boundary visibly covering every relevant result", [layer("tertiary", p("M7 4H4v16h3M17 4h3v16h-3")), diamond(8, 8, 0.75), diamond(12, 12, 0.75), diamond(16, 16, 0.75)]),
+  icon("False Positive", "false-positive", "Outside Acceptance", "positive prediction placed clearly outside the truth boundary", [layer("secondary", c(9, 12, 5.5)), p("M18 7h3M19.5 5.5v3")]),
+  icon("False Negative", "false-negative", "Missed Truth", "negative prediction remaining inside a breached truth boundary", [layer("secondary", p("M17.5 8A7 7 0 1 0 17.5 16")), l(9, 12, 15, 12)]),
+  icon("Drift", "drift", "Diverging Measure", "measured trace bending away from a stable baseline", [c(4, 12, 1.25), l(6.5, 12, 21, 12), layer("secondary", p("M6.15 10.9C10 10.9 13 8 20 5"))]),
+  icon("Bias", "bias", "Skewed Measure", "tilted measure resting on a centered fulcrum with unequal endpoint weights", [layer("secondary", l(6.67, 9.67, 16.36, 12.09)), c(4, 9, 1.5), c(20, 13, 2.5), poly("9.5 19 12 12.27 14.5 19")]),
+  icon("PII Redaction", "pii-redaction", "Masked Identity", "identity card with one personal field visibly removed and struck", [layer("secondary", rect(3, 5, 18, 14, 2)), c(7.75, 10, 2), l(12.5, 8.75, 18, 8.75), layer("tertiary", p("M12.5 13.5h1.5M16.5 15.5l1.25-4"))]),
+];

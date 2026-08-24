@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "families": {
+    "core-actions": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "people-communication": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "files-content": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "status-time-view": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "editing-presentation": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "ai-foundation": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "agent-roles": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "ml-generation": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "agent-context-runtime": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "ai-evals-safety": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "data-engineering": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "data-analytics": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "product-analytics": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "development": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "prompt-tools": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "protocol-extensions": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "security-release": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "software-architecture": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    },
+    "software-quality": {
+      "semantic": "pass",
+      "browser": "pass",
+      "independent": "pass",
+      "recognition": "pass"
+    }
+  }
+}
